@@ -1,0 +1,61 @@
+html {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+}
+body {
+  height: 100%;
+  width: 100%;
+  }
+
+main {
+  color: white;
+  align-content: center;
+  background-color: black;
+  }
+
+.menu {
+  display: block;
+}
+
+.menu-item {
+  display: none;
+  color: black;
+  background-color: gray;
+  display: inline;
+  }
+
+.menu-btn {
+  display: none;
+  background-color: lightgray;
+  border: none;
+  font-color: black;
+}
+
+.menu-item:hover, .menu-btn:hover {
+  display: inline;
+  background-color: lightgray;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: none;
+}
+#box {
+
+background-color: black;
+  width: 220px;
+  height: 60px;
+  border: 10px solid black;
+  margin: 10px;
+  font-size: 22px;
+  color: white;
+  font-family: halvetica;
+  text-align: center;
+  }
+#logo {
+  border: 10px solid white;
+  }
